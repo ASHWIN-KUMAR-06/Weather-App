@@ -1,0 +1,121 @@
+#root {
+    height: 100vh;
+    /* border: 3px solid green; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(25, 53, 87);
+    /* background-image: url(./background.jpg); */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .box {
+    /* border: 2px solid red; */
+    box-shadow: 0px 0px 20px 5px rgb(2, 1, 1);
+    height: 500px;
+    width: 400px;
+    background-color: rgba(246, 219, 11, 0.834);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem 0;
+    color: rgb(8, 8, 8);
+    /* background-image: url(./images/center.jpg); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .inputData {
+    /* border: 2px solid rgb(81, 214, 4); */
+    height: 50px;
+    width: 300px;
+  }
+  
+  input {
+    height: 100%;
+    width: 100%;
+    border-radius: 30px;
+    border: none;
+    outline: none;
+    font-size: 2rem;
+    padding: 0 2rem;
+  }
+  
+  .searchButton {
+    /* border: 3px solid red; */
+    background-color: white;
+    transform: translate(260px, -125%);
+    border: none;
+    outline: none;
+    height: 30px;
+    width: 30px;
+    padding: 2px;
+    border-radius: 50%;
+  }
+
+.searchButton > img {
+    height: 100%;
+    width: 100%;
+}
+
+.searchButton > img:hover {
+    cursor: pointer;
+}
+
+.searchButton > img:active {
+    background-color: rgb(236, 229, 229);
+}
+  
+  .resultData {
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: column;
+    height: 85%;
+    width: 90%;
+  }
+  
+  /* .resultData > div {
+    border: 2px solid green;
+  } */
+  
+  .city {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .city h2 {
+    margin-top: 3rem;
+    display: flex;
+    align-items: center;
+  }
+  
+  .city > * {
+    margin: 1rem 0;
+    /* border: 2px solid white; */
+  }
+  
+  .otherThings {
+    padding-top: 10rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+  .otherThings > div {
+    width: 40%;
+    font-size: 1.8rem;
+    text-align: center;
+    margin: 2rem 0;
+    /* border: 2px solid yellow; */
+  }
+  
+  
+  .otherThings > div > p:last-child {
+    font-size: 1.3rem;
+  }
+  
+  

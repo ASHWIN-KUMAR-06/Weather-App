@@ -1,0 +1,45 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Oleo+Script+Swash+Caps:wght@400;700&family=Poppins:wght@300;400;500;700&family=Rubik:wght@300;400&family=Schoolbell&display=swap');
+
+:root {
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 1.6rem;
+
+    /* background-color: rgb(10, 25, 33); */
+    /* color: rgba(255, 255, 255, 0.987); */
+
+}
+
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style: none;
+}
+
+/* //////////////////// utility classes //////////////// */
+
+
+
+
+
+/* //////////////////////// media queries //////////////// */
+
+@media (max-width:400px) {
+    :root {
+        font-size: 8px;
+    }
+
+}
